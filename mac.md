@@ -1,35 +1,54 @@
-##Mac OSx##
+#Mac OSx#
 
-Alright, let's get you set-up with a web development environment on your mac.
+Alright, let's get you set-up with a web development environment on your mac. We'll be using Ruby on Rails for the weekend.
 
 __How to read this document:__
 
-Everything that is in a little box is a command you need to run in your terminal. For example, if you see a box like the one below copy that line and past it in your terminal:
+Everything that is in a little box is a command you need to run in your terminal. For example, if you see a box like the one below copy that line and paste it in your terminal:
 
 > copy everything in here an paste it into the terminal
 
-__Open the terminal__ by pressing command and then the spacebar. In the search box type terminal and open it.
+__Open the terminal__ by pressing command and then the spacebar. In the search box type terminal and open it by clicking on it.
 
-__What you need:__
+##Stuff you need##
 
 ###Xcode###
 
-You  most likeSearch in your applications and upgrade to the latest version, alternatively:
+You  most likely already have a version of Xcode on your maching. Search in your applications folder to double check, but it's best if you upgrade to the latest version:
 --> Get it from itunes: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
-*RVM
-Install RVM and the latest versions of Ruby and Rails
-> $ \curl -L https://get.rvm.io | bash -s stable --rails
+
+###RVM###
+Why: It will help you manage all the different versions of Ruby and Rails and make your life easy. So get this one right, since it's kind of important.
+
+Install RVM and the latest versions of Ruby and Rails (this next line goes into the terminal, remember):
+> \curl -L https://get.rvm.io | bash -s stable --rails
+
+Now we probably have Rails 4.0 installed. Check with:
+
+> rails -v
+
+Rails 4.0 is the latest version of Rails, which changed a few things on how a project is run. Since a lot more online help is available for Rails previous verion (3.2.13), we're going to use that version of Rails. Doing so will help you a lot when building any application after this weekend...especially if you're troubleshooting error messages (believe me I've been there).
+
+Let's get you on Rails 3.2.13:
 
 Install a new default gemset so that you can use the Rails 3.2.13 version instead of Rails 4.0
 
 --> http://strandcode.com/2013/07/11/ruby-version-manager-rvm-overview-for-rails-newbs/
 
-*Homebrew
+###Homebrew###
 
 > ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
 
-*Postgres
+
+###Git###
+We'll be using Git and Github to do version control. Think of this a place where you story all your work in the cloud so you can share it with other people, save different revisions and do all kind of cool things. It's used by a lot of developers and by using it too, you're in the know.
+
+
+
+###Postgres###
+Why? This is our database that we'll be using to store our data in. 
+
 
 > Lion and up come with this database installed, so you can check in the terminal with:
 > psql --version
@@ -53,9 +72,10 @@ Tip: save that last line on a sticky note or in an email as a quick reference to
 
 
 
-OTHER SOFTWARE AND ACCOUNTS YOU NEED:
+##OTHER SOFTWARE AND ACCOUNTS YOU NEED:##
 
-*Sublime 
+###Sublime###
+Why? Sublime Text 2 is a great texteditor that has all the great features and is easy to use; plus we can use it for free. If you have another text editor that you prefer, no need to switch.
 
 --> go to sublimetext.com and install the text editor: http://www.sublimetext.com/2
 
@@ -64,18 +84,20 @@ To get some handy shortcuts:
 Make "subl ." work in terminal
 --> https://gist.github.com/olivierlacan/1195304
 
-*Git
-Create and account on Github.com and create a new repository.
+
+###Github###
+Create and account on www.Github.com and create a new repository.
 
 If you prefer to use a little graphical interface program:
 --> http://mac.github.com/
 
-*Heroku
+###Heroku###
 
 Set-up a Heroku account on:  https://www.heroku.com/
 
-*Amazon S3
+###Amazon AWS services###
 
-We need an amazon developer account for some image storage space (this will cost you nothing):
+We need an amazon developer account for some image storage space on Amazons S3 service (this will cost you nothing):
 
 --> http://aws.amazon.com/ Sign-up and create an account. Anything we'll do over the weekend will cost you nothing, so don't worry about your credit card being charged.
+
