@@ -90,12 +90,18 @@ Why? with homebrew you can install a lot of programs with a single command line.
 ###Git###
 We'll be using Git and Github to do version control. Think of this a place where you story all your work in the cloud so you can share it with other people, save different revisions and do all kind of cool things. It's used by a lot of developers and by using it too, you're in the know.
 
+If you need a break from the command line you can use the visual installer for git here:
+http://git-scm.com/downloads
+
+If you want to keep going with the command line type:
+
 ```
 brew update
 ```
 ```
 brew install git
 ```
+
 
 
 ###Postgres###
