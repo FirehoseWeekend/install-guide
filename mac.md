@@ -24,6 +24,8 @@ __Open the terminal__ by pressing command and then the spacebar. In the search b
 You  most likely already have a version of Xcode on your maching. Search in your applications folder to double check, but it's best if you upgrade to the latest version:
 --> Get it from itunes: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
+--> Read this tutorial Step 1 for any trouble with XCode: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
+
 
 ###RVM###
 Why: It will help you manage all the different versions of Ruby and Rails and make your life easy. So get this one right, since it's kind of important.
@@ -88,6 +90,12 @@ Why? with homebrew you can install a lot of programs with a single command line.
 ###Git###
 We'll be using Git and Github to do version control. Think of this a place where you story all your work in the cloud so you can share it with other people, save different revisions and do all kind of cool things. It's used by a lot of developers and by using it too, you're in the know.
 
+```
+brew update
+```
+```
+brew install git
+```
 
 
 ###Postgres###
@@ -120,4 +128,9 @@ Then start the database by running the following:
 Tip: save that last line on a sticky note or in an email as a quick reference to re-start Postgres after you restart your computer later down the line.
 
 --> the first 1:30 min of this video also give good, albeit high-speed, instructions (don't worry about anything that happens after the 1:30 min mark): http://railscasts.com/episodes/342-migrating-to-postgresql
+
+
+###Awesome! You're all done here!###
+
+__--> Now get your software and accounts set-up (here)[https://github.com/FirehoseWeekend/install-guide]__
 
