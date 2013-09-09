@@ -1,12 +1,14 @@
 ##Mac OSx##
 
-Alright ,let's get you set-up with a web development environment on your mac.
+Alright, let's get you set-up with a web development environment on your mac.
 
 __How to read this document:__
 
-Everything that has a ">" in front of it is a command you need to run in your terminal.
+Everything that is in a little box is a command you need to run in your terminal. For example, if you see a box like the one below copy that line and past it in your terminal:
 
-Open the terminal by pressing command and then the spacebar. In the search box type terminal and open it.
+> copy everything in here an paste it into the terminal
+
+__Open the terminal__ by pressing command and then the spacebar. In the search box type terminal and open it.
 
 __What you need:__
 
