@@ -102,6 +102,7 @@ brew update
 brew install git
 ```
 
+We will set-up git so it connects to your github after you have your github account set up. If you don't know what that means right now, don't worry, just remember we have to come back to here and do a few more lines to make everything work.
 
 
 ###Postgres###
