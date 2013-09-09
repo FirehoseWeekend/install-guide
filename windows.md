@@ -6,7 +6,9 @@ In order to have a well supported environment, with a large community if you are
 
 Step 1 - Install VirtualBox
 -------------
-
+* Download and install VirtualBox.  You can get the software [here](https://www.virtualbox.org/wiki/Downloads)
+* Launch the VirtualBox application
+* Press the `New` button[^](http://i.imgur.com/ILPgFTk.png).  
 
 Step 2 - Install Ubuntu in the Virtual Environment
 ------------
