@@ -24,7 +24,7 @@ __Open the terminal__ by pressing command and then the spacebar. In the search b
 You  most likely already have a version of Xcode on your maching. Search in your applications folder to double check, but it's best if you upgrade to the latest version:
 --> Get it from itunes: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
---> Read this tutorial Step 1 for any trouble with XCode: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
+--> Read Step 1 of this tutorial for any trouble with XCode: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 
 
 ###RVM###
@@ -90,7 +90,7 @@ Why? with homebrew you can install a lot of programs with a single command line.
 ###Git###
 We'll be using Git and Github to do version control. Think of this a place where you story all your work in the cloud so you can share it with other people, save different revisions and do all kind of cool things. It's used by a lot of developers and by using it too, you're in the know.
 
-If you need a break from the command line you can use the visual installer for git here:
+If you __need a break from the command line__ you can use the visual installer for git here:
 http://git-scm.com/downloads
 
 If you want to keep going with the command line type:
