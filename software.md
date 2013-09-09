@@ -7,7 +7,6 @@ Why? Sublime Text 2 is a great texteditor that has all the great features and is
 
 #### Optional Steps ####
 
-To get some handy shortcuts:
+_To get some handy shortcuts_
 
-Make "subl ." work in terminal
---> https://gist.github.com/olivierlacan/1195304
+* Make "subl ." work in terminal by following the guide [here](https://gist.github.com/olivierlacan/1195304).
