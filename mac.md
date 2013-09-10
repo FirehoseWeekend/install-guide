@@ -42,17 +42,17 @@ Now we probably have Rails 4.0 installed. Check with:
  rails -v
 ```
 
-FYI: Rails 4.0 is the latest version of Rails, which changed a few things on how a project is run. Since a lot more online help is available for Rails previous verion (3.2.13), we're going to use that version of Rails. Doing so will help you a lot when building any application after this weekend...especially if you're troubleshooting error messages (believe me I've been there).
+FYI: Rails 4.0 is the latest version of Rails, which changed a few things on how a project is run. Since a lot more online help is available for Rails previous version (3.2.13), we're going to use that version of Rails. Doing so will help you a lot when building any application after this weekend...especially if you're troubleshooting error messages (believe me I've been there).
 
 Let's get you set-up with Rails 3.2.13.
 
 Install a new default gemset so that you can use the Rails 3.2.13 version instead of Rails 4.0
 
 ```
-rvm gemset create Ruby1.9_Rails3.2.13
+rvm gemset create Ruby2.0_Rails3.2.13
 ```
 ```
-rvm gemset use Ruby1.9_Rails3.2.13 
+rvm gemset use Ruby2.0_Rails3.2.13 
 ```
 
 Add the gems with:
