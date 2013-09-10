@@ -130,5 +130,5 @@ Tip: save that last line on a sticky note or in an email as a quick reference to
 
 ###Awesome! You're all done here!###
 
-__--> Now get your software and accounts set-up (here)[https://github.com/FirehoseWeekend/install-guide]__
+__--> Now get your software and accounts set-up [here](https://github.com/FirehoseWeekend/install-guide)__
 
