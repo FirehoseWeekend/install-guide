@@ -58,17 +58,8 @@ rvm gemset use Ruby1.9_Rails3.2.13
 Add the gems with:
 
 ```
-gem install Ruby -v 1.9.3p448
-```
-```
 gem install Rails -v 3.2.13
 ```
-Now if you type:
-
-```
-ruby -v
-```
-you should get: Ruby 1.9.3
 
 And if you type:
 ```
