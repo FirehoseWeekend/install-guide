@@ -58,7 +58,7 @@ rvm gemset use Ruby2.0_Rails3.2.13
 Add the gems with:
 
 ```
-gem install Rails -v 3.2.13
+gem install rails -v 3.2.13
 ```
 
 And if you type:
