@@ -73,13 +73,14 @@ Now let's get you the rails version we're using for the weekend. Add the gems wi
 
 ```
 gem install Rails -v 3.2.14
+
 ```
 
 And if you type:
 ```
-Rails -v
+rails -v
 ```
-You should get: Rails 3.2.13.
+You should get: Rails 3.2.14.
 
 Now open a new tab in the terminal (Command+t) and type in:
 
@@ -87,7 +88,7 @@ Now open a new tab in the terminal (Command+t) and type in:
 rails -v
 ```
 
-Still shows "Rails 3.2.13? --> High five you're all set :)
+Still shows "Rails 3.2.14? --> High five you're all set :)
 
 --> For the super-motivated, more info can also be found here: http://strandcode.com/2013/07/11/ruby-version-manager-rvm-overview-for-rails-newbs/
 
