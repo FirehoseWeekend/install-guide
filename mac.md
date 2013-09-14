@@ -62,7 +62,7 @@ ruby-2.0.0-p247 [ x86_64 ]
 ```
 You need the "ruby-2.0.0-p247" part (or whatever your version is).
 
-Now let's make your gemset the default:
+Now let's make your gemset the default. __Make sure you use your version of ruby from above__!!!
 
 ```
 rvm use ruby-2.0.0-p247@Ruby2.0_Rails3.2.13 --default
