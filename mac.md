@@ -19,12 +19,23 @@ __Open the terminal__ by pressing command and then the spacebar. In the search b
 
 ##Stuff you need##
 
-###Xcode###
+###XCode###
 
 You  most likely already have a version of Xcode on your maching. Search in your applications folder to double check, but it's best if you upgrade to the latest version:
 --> Get it from itunes: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
 --> Read Step 1 of this tutorial for any trouble with XCode: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
+
+
+###XCode Command Line Tools###
+
+Once you install XCode, you need to install the command line integration.  
+
+* Press Command+[Space] to launch spotlight in the top right window
+* Type `xcode` and press enter
+* In the menu bar click `XCode>Preferences`
+* Press the downloads tab in the top bar of the dialog (See [this](http://i.imgur.com/V0MnjNS.png) picture for a screenshot of this and the next step)
+* Press the `Install` next to the "Command Line Tools" listing
 
 
 ###RVM###
