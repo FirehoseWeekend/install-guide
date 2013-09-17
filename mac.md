@@ -44,24 +44,17 @@ Why: It will help you manage all the different versions of Ruby and Rails and ma
 Install RVM and the latest versions of Ruby and Rails (this next line goes into the terminal, remember):
 
 ```
- \curl -L https://get.rvm.io | bash -s stable --rails
+ \curl -L https://get.rvm.io | bash -s stable
 ```
 
-Now we probably have Rails 4.0 installed. Check with:
+Now, let's get you set-up with Rails 3.2.14.
+
+Install a new default gemset so that you can use the Rails 3.2.14 version.
 
 ```
- rails -v
+rvm gemset create firehose
 ```
 
-FYI: Rails 4.0 is the latest version of Rails, which changed a few things on how a project is run. Since a lot more online help is available for Rails previous version (3.2.13), we're going to use that version of Rails. Doing so will help you a lot when building any application after this weekend...especially if you're troubleshooting error messages (believe me I've been there).
-
-Let's get you set-up with Rails 3.2.13.
-
-Install a new default gemset so that you can use the Rails 3.2.13 version instead of Rails 4.0
-
-```
-rvm gemset create Ruby2.0_Rails3.2.13
-```
 Now let's make this gemset the default gemset. First run
 
 ```
@@ -76,7 +69,7 @@ You need the "ruby-2.0.0-p247" part (or whatever your version is).
 Now let's make your gemset the default. __Make sure you use your version of ruby from above__!!!
 
 ```
-rvm use ruby-2.0.0-p247@Ruby2.0_Rails3.2.13 --default
+rvm use ruby-2.0.0-p247@firehose --default
 ```
 
 
