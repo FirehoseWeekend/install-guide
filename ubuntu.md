@@ -74,3 +74,15 @@ Press ctrl+d to close the postgres console.
 ```
 sudo apt-get install node
 ```
+
+
+** Install Nokogiri RubyGem **
+
+Nokogiri is a rubygem that we need and it requires certain packages to be installed.  To install those packages and make sure the gem can be installed run these commands:
+
+```
+
+sudo apt-get install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8 libreadline-ruby1.8 libruby1.8 libopenssl-ruby libxslt-dev libxml2-dev libxslt1-dev libxml2-dev
+gem install nokogiri
+
+```
