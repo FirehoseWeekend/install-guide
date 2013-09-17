@@ -37,6 +37,9 @@ sudo apt-get install curl
 curl -L https://get.rvm.io | bash -s stable
 source ~/.bash_profile
 rvm install 2.0.0
+rvm use 2.0.0
+rvm gemset create firehose 
+rvm gemset use ruby-2.0.0@firehose --default
 ```
 
 * Install git
@@ -81,8 +84,6 @@ sudo apt-get install node
 Nokogiri is a rubygem that we need and it requires certain packages to be installed.  To install those packages and make sure the gem can be installed run these commands:
 
 ```
-
 sudo apt-get install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8 libreadline-ruby1.8 libruby1.8 libopenssl-ruby libxslt-dev libxml2-dev libxslt1-dev libxml2-dev
 gem install nokogiri
-
 ```
