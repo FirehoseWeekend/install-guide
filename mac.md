@@ -62,23 +62,44 @@ Install a new default gemset so that you can use the Rails 3.2.13 version instea
 ```
 rvm gemset create Ruby2.0_Rails3.2.13
 ```
-```
-rvm gemset use Ruby2.0_Rails3.2.13 
-```
-
-Add the gems with:
+Now let's make this gemset the default gemset. First run
 
 ```
-gem install rails -v 3.2.14
+rvm list
+```
+You should see a whole bunch of stuff and something like this:
+```
+ruby-2.0.0-p247 [ x86_64 ]
+```
+You need the "ruby-2.0.0-p247" part (or whatever your version is).
+
+Now let's make your gemset the default. __Make sure you use your version of ruby from above__!!!
+
+```
+rvm use ruby-2.0.0-p247@Ruby2.0_Rails3.2.13 --default
+```
+
+
+Now let's get you the rails version we're using for the weekend. Add the gems with:
+
+```
+gem install Rails -v 3.2.14
+
 ```
 
 And if you type:
 ```
 rails -v
 ```
-You should get: rails 3.2.14
+You should get: Rails 3.2.14.
 
-High five you're all set :)
+Now open a new tab in the terminal (Command+t) and type in:
+
+```
+rails -v
+```
+
+Still shows "Rails 3.2.14? --> High five you're all set :)
 
 --> For the super-motivated, more info can also be found here: http://strandcode.com/2013/07/11/ruby-version-manager-rvm-overview-for-rails-newbs/
 
