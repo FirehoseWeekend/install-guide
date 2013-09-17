@@ -83,7 +83,7 @@ rvm use ruby-2.0.0-p247@Ruby2.0_Rails3.2.13 --default
 Now let's get you the rails version we're using for the weekend. Add the gems with:
 
 ```
-gem install Rails -v 3.2.14
+gem install rails -v 3.2.14
 
 ```
 
