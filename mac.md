@@ -149,6 +149,32 @@ First, create the database by running the following in:
 initdb /usr/local/var/postgres
 ```
 
+**THIS IS IMPORTANT**: After running that command look at the output of the command.  If you see an error that looks like this: `FATAL:  could not create shared memory segment`, you'll need to do some work.  If the output looks all successful you can continue to the section on `Start Up the Database`.
+
+```
+sudo /Applications/Xcode.app/Contents/MacOS/Xcode /etc/sysctl.conf
+```
+
+_When you start typing a message box will pop up. Click on the `Unlock` button._
+
+In the file that opens up change the line that starts with: `kern.sysv.shmall`. To be `kern.sysv.shmall=65536`.  Change the line that starts with `kern.sysv.shmmax` to be: `kern.sysv.shmmax=16777216`
+
+Hit command+s to save the file, and then command+q to quit.  Restart your machine.
+
+When it comes back up verify it worked properly and when you run `sysctl kern.sysv.shmmax` it prints 16777216 and when you run `sysctl kern.sysv.shmall` it prints 65536.
+
+After that run:
+
+```
+initdb /usr/local/var/postgres
+```
+
+again and make sure the `FATAL` error does not happen.
+
+Start Up the Database
+---------------------
+
+
 Then start the database by running the following:
 
 ```
