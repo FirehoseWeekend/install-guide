@@ -57,6 +57,18 @@ gem install rails -v 3.2.14
 sudo apt-get install postgresql postgresql-contrib libpq-dev
 ```
 
+
+** Configure Postgres User Account **
+
+```
+sudo -u postgres psql postgres
+\password postgres
+```
+
+When prompted for a password (and a confirmation) enter: `password`.
+
+Press ctrl+d to close the postgres console.
+
 * Install NodeJS
 
 ```
