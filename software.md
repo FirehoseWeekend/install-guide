@@ -37,9 +37,6 @@ Now if you type `sublime` in the terminal, the sublime text editor should be lau
 Ubuntu Guide
 -------------
 
-
-* Go to 
-
 ```
 sudo add-apt-repository ppa:webupd8team/sublime-text-2
 sudo apt-get install sublime-text
