@@ -38,4 +38,13 @@ Ubuntu Guide
 -------------
 
 
+* Go to 
+
+```
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get install sublime-text
+sudo ln -s /usr/bin/subl /usr/bin/sublime
+```
+
+Now if you type `sublime` in the terminal, it should launch your sublime text editor.
 
