@@ -186,6 +186,18 @@ Tip: save that last line on a sticky note or in an email as a quick reference to
 --> the first 1:30 min of this video also give good, albeit high-speed, instructions (don't worry about anything that happens after the 1:30 min mark): http://railscasts.com/episodes/342-migrating-to-postgresql
 
 
+Create a database user
+---------------------
+
+
+```
+createuser -s -r postgres
+sudo -u postgres psql postgres
+\password postgres
+```
+
+Then enter the password (and password confirmation) of: `password`.
+
 ###Awesome! You're all done here!###
 
 __--> Now get your software and accounts set-up [here](https://github.com/FirehoseWeekend/install-guide)__
