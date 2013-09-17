@@ -54,7 +54,7 @@ gem install rails -v 3.2.14
 * Install Postgres
 
 ```
-sudo apt-get install postgresql
+sudo apt-get install postgresql postgresql-contrib libpq-dev
 ```
 
 * Install NodeJS
