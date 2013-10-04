@@ -47,6 +47,8 @@ Install RVM and the latest versions of Ruby and Rails (this next line goes into 
  \curl -L https://get.rvm.io | bash -s stable
 ```
 
+__Now open a new terminal window by pressing COMMAND+T__
+
 Now, let's get you set-up with Rails 3.2.14.
 
 Install a new default gemset so that you can use the Rails 3.2.14 version.
