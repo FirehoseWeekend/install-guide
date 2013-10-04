@@ -45,6 +45,7 @@ Install RVM and the latest versions of Ruby and Rails (this next line goes into 
 
 ```
  \curl -L https://get.rvm.io | bash -s stable
+rvm install ruby-2.0.0-p247
 ```
 
 __Now open a new terminal window by pressing COMMAND+T__
