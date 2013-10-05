@@ -187,8 +187,8 @@ Create a database user
 
 
 ```
-createuser -s -r postgres
-sudo -u postgres psql postgres
+createuser -s -r postgres -h localhost
+psql postgres
 \password postgres
 ```
 
