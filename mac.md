@@ -44,11 +44,14 @@ Why: It will help you manage all the different versions of Ruby and Rails and ma
 Install RVM and the latest versions of Ruby and Rails (this next line goes into the terminal, remember):
 
 ```
- \curl -L https://get.rvm.io | bash -s stable
-rvm install ruby-2.0.0-p247
+curl -L https://get.rvm.io | bash -s stable
 ```
 
 __Now open a new terminal window by pressing COMMAND+T__
+
+```
+rvm install ruby-2.0.0-p247
+```
 
 Now, let's get you set-up with Rails 3.2.14.
 

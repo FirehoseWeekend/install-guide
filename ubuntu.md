@@ -38,8 +38,7 @@ curl -L https://get.rvm.io | bash -s stable
 source ~/.bash_profile
 rvm install 2.0.0
 rvm use 2.0.0
-rvm gemset create firehose 
-rvm gemset use ruby-2.0.0@firehose --default
+rvm gemset use 2.0.0@firehose --default --create
 ```
 
 * Install git
