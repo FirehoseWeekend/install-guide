@@ -24,6 +24,9 @@ __Open the terminal__ by pressing command and then the spacebar. In the search b
 You  most likely already have a version of Xcode on your maching. Search in your applications folder to double check, but it's best if you upgrade to the latest version:
 --> Get it from itunes: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
 
+
+If you have problems installing XCode because it says something like the version of your operating system is out of date, we can work around that by following the instructions [here](gcc.md)
+
 --> Read Step 1 of this tutorial for any trouble with XCode: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
 
 

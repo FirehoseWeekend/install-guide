@@ -6,7 +6,7 @@ In order to have a well supported environment, with a large community if you are
 
 Step 1 - Install VirtualBox
 -------------
-* Download and install VirtualBox.  You can get the software [here](https://www.virtualbox.org/wiki/Downloads).
+* Download and install VirtualBox (version 3.1.8; not the latest version).  You can get the software [here](http://download.virtualbox.org/virtualbox/3.1.8/VirtualBox-3.1.8-61349-Win.exe)
 * Launch the VirtualBox application.
 
 Step 2 - Create a Virtual Environment
