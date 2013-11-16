@@ -85,7 +85,7 @@ rvm use ruby-2.0.0-p247@firehose --default
 Now let's get you the rails version we're using for the weekend. Add the gems with:
 
 ```
-gem install rails -v 3.2.14
+gem install rails -v 4.0.0
 
 ```
 
