@@ -70,7 +70,6 @@ Install rbenv and the latest versions of Ruby and Rails (this next line goes int
 
 ```
 git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
-
 ```
 
 
@@ -98,7 +97,6 @@ Now let's get you the rails version we're using for the weekend. Add the gems wi
 
 ```
 gem install rails -v 4.0.0
-
 ```
 
 ```
