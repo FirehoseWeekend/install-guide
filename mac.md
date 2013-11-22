@@ -19,91 +19,14 @@ __Open the terminal__ by pressing command and then the spacebar. In the search b
 
 ##Stuff you need##
 
-###XCode###
+GCC
+====
 
-You  most likely already have a version of Xcode on your maching. Search in your applications folder to double check, but it's best if you upgrade to the latest version:
---> Get it from itunes: https://itunes.apple.com/us/app/xcode/id497799835?mt=12
+Install [GCC](https://github.com/kennethreitz/osx-gcc-installer/downloads) 
 
+Download the version that matches your version of Mac.  In the top menu click the apple, and then "About this Mac".  If it says Version `10.6.x` download the 10.6 version.  Otherwise download the 10.7-v2 file.
 
-If you have problems installing XCode because it says something like the version of your operating system is out of date, we can work around that by following the instructions [here](gcc.md)
-
---> Read Step 1 of this tutorial for any trouble with XCode: http://www.moncefbelyamani.com/how-to-install-xcode-homebrew-git-rvm-ruby-on-mac/
-
-
-###XCode Command Line Tools###
-
-Once you install XCode, you need to install the command line integration.  
-
-* Press Command+[Space] to launch spotlight in the top right window
-* Type `xcode` and press enter
-* In the menu bar click `XCode>Preferences`
-* Press the downloads tab in the top bar of the dialog (See [this](http://i.imgur.com/V0MnjNS.png) picture for a screenshot of this and the next step)
-* Press the `Install` next to the "Command Line Tools" listing
-
-
-###RVM###
-Why: It will help you manage all the different versions of Ruby and Rails and make your life easy. So get this one right, since it's kind of important.
-
-Install RVM and the latest versions of Ruby and Rails (this next line goes into the terminal, remember):
-
-```
-curl -L https://get.rvm.io | bash -s stable
-```
-
-__Now open a new terminal window by pressing COMMAND+T__
-
-```
-rvm install ruby-2.0.0-p247
-```
-
-Now, let's get you set-up with Rails 3.2.14.
-
-Install a new default gemset so that you can use the Rails 3.2.14 version.
-
-```
-rvm gemset create firehose
-```
-
-Now let's make this gemset the default gemset. First run
-
-```
-rvm list
-```
-You should see a whole bunch of stuff and something like this:
-```
-ruby-2.0.0-p247 [ x86_64 ]
-```
-You need the "ruby-2.0.0-p247" part (or whatever your version is).
-
-Now let's make your gemset the default. __Make sure you use your version of ruby from above__!!!
-
-```
-rvm use ruby-2.0.0-p247@firehose --default
-```
-
-
-Now let's get you the rails version we're using for the weekend. Add the gems with:
-
-```
-gem install rails -v 4.0.0
-
-```
-
-And if you type:
-```
-rails -v
-```
-You should get: Rails 3.2.14.
-
-Now open a new tab in the terminal (Command+t) and type in:
-
-```
-rails -v
-```
-
-Still shows "Rails 3.2.14? --> High five you're all set :)
-
---> For the super-motivated, more info can also be found here: http://strandcode.com/2013/07/11/ruby-version-manager-rvm-overview-for-rails-newbs/
+Run this file
 
 ###Homebrew###
 Why? with homebrew you can install a lot of programs with a single command line. It will save you a lot of time.
@@ -130,62 +53,80 @@ brew install git
 We will set-up git so it connects to your github after you have your github account set up. If you don't know what that means right now, don't worry, just remember we have to come back to here and do a few more lines to make everything work.
 
 
+
+### libksba ###
+
+```
+brew install libksba
+```
+
+
+###rbenv###
+Why: It will help you manage all the different versions of Ruby and Rails and make your life easy. So get this one right, since it's kind of important.
+
+Install rbenv and the latest versions of Ruby and Rails (this next line goes into the terminal, remember):
+
+
+
+```
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+
+```
+
+
+```
+ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+```
+
+```
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```
+
+
+```
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+
+__Now open a new terminal window by pressing COMMAND+T__
+
+```
+rbenv install 2.0.0-p353
+```
+
+
+Now let's get you the rails version we're using for the weekend. Add the gems with:
+
+```
+gem install rails -v 4.0.0
+
+```
+
+```
+rbenv rehash
+```
+
+And if you type:
+
+```
+rails -v
+```
+
+You should get: Rails 4.
+
+Now open a new tab in the terminal (Command+t) and type in:
+
+```
+rails -v
+```
+
+Still shows "Rails 4.0? --> High five you're all set :)
+
+
+
 ###Postgres###
 Why? This is our database that we'll be using to store our data in. 
 
-Lion and up come with this database installed, so you can check in the terminal with:
-```
- psql --version
-```
-
-That said, we probably want to use the latest version of Postgres to develop applications. In the command line enter:
-
-```
-brew install postgresql
-```
-
---> Read through the output after the installation. Two things are important.
-
-First, create the database by running the following in:
-```
-initdb /usr/local/var/postgres
-```
-
-**THIS IS IMPORTANT**: After running that command look at the output of the command.  If you see an error that looks like this: `FATAL:  could not create shared memory segment`, you'll need to do some work.  If the output looks all successful you can continue to the section on `Start Up the Database`.
-
-```
-sudo /Applications/Xcode.app/Contents/MacOS/Xcode /etc/sysctl.conf
-```
-
-_When you start typing a message box will pop up. Click on the `Unlock` button._
-
-In the file that opens up change the line that starts with: `kern.sysv.shmall`. To be `kern.sysv.shmall=65536`.  Change the line that starts with `kern.sysv.shmmax` to be: `kern.sysv.shmmax=16777216`
-
-Hit command+s to save the file, and then command+q to quit.  Restart your machine.
-
-When it comes back up verify it worked properly and when you run `sysctl kern.sysv.shmmax` it prints 16777216 and when you run `sysctl kern.sysv.shmall` it prints 65536.
-
-After that run:
-
-```
-initdb /usr/local/var/postgres
-```
-
-again and make sure the `FATAL` error does not happen.
-
-Start Up the Database
----------------------
-
-
-Then start the database by running the following:
-
-```
- pg_ctl -D /usr/local/var/postgres -l /usr/local/var/postgres/server.log start
-```
-
-Tip: save that last line on a sticky note or in an email as a quick reference to re-start Postgres after you restart your computer later down the line.
-
---> the first 1:30 min of this video also give good, albeit high-speed, instructions (don't worry about anything that happens after the 1:30 min mark): http://railscasts.com/episodes/342-migrating-to-postgresql
+Download and run the [installer](http://www.enterprisedb.com/products-services-training/pgdownload#osx)
 
 
 Create a database user
