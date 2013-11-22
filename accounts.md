@@ -1,7 +1,9 @@
 ###Github###
 
 * Create and account on [github.com](http://www.github.com) and create a new repository.
-* Follow [these](https://help.github.com/articles/generating-ssh-keys) steps to add and create an SSH key for authentication.
+* Setup your SSH key and connect it to GitHub
+  * On a Mac follow [these](https://github.com/FirehoseWeekend/install-guide/blob/new-version/mac-ssh.md) steps
+  * Otherwise follow the Ubuntu steps in your virtual environment [here](https://help.github.com/articles/generating-ssh-keys#platform-linux)
 
 ###Heroku###
 
