@@ -8,11 +8,7 @@
 ###Heroku###
 
 * Set-up a Heroku account on:  [heroku.com](https://www.heroku.com/)
-* Install the heroku gem by running
-
-```
-gem install heroku
-```
+* Install the heroku tool kit, by running the installer you get [here](https://toolbelt.heroku.com/) 
 
 * Add your SSH key to your account by doing the following:
   * Log into heroku.com
