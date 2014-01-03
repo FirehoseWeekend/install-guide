@@ -50,7 +50,7 @@ sudo apt-get install git-core
 * Install Rails
 
 ```
-gem install rails -v 3.2.14
+gem install rails -v 4.0.1
 ```
 
 * Install Postgres
