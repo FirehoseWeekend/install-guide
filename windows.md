@@ -9,6 +9,11 @@ Step 1 - Install VirtualBox
 * Download and install VirtualBox (version 3.1.8; not the latest version).  You can get the software [here](http://download.virtualbox.org/virtualbox/3.1.8/VirtualBox-3.1.8-61349-Win.exe)
 * Launch the VirtualBox application.
 
+AT NO POINT UPDATE THE PROGRAM
+-------------
+The program may tell you there are later versions out there.  We want to be on the version of VirtualBox we tell you, 3.1.8.  This is important, and if you don't follow this you'll need to uninstall and reinstall VirtualBox.  **DO NOT UPGRADE**
+
+
 Step 2 - Create a Virtual Environment
 ------------
 * Press the _New_ button[^](http://i.imgur.com/ILPgFTk.png).  

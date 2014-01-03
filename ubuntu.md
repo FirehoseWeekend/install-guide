@@ -74,7 +74,7 @@ Press ctrl+d to close the postgres console.
 * Install NodeJS
 
 ```
-sudo apt-get install node
+sudo apt-get install nodejs
 ```
 
 
