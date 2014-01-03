@@ -24,7 +24,7 @@ GCC
 
 Install [GCC](https://github.com/kennethreitz/osx-gcc-installer/downloads) 
 
-Download the version that matches your version of Mac.  In the top menu click the apple, and then "About this Mac".  If it says Version `10.6.x` download the 10.6 version.  Otherwise download the 10.7-v2 file.
+Download the version that matches your version of Mac.  In the top menu click the apple, and then "About this Mac".  If it says Version `10.6.x` download the 10.6 version.  Otherwise download the 10.7-v2 file (use this one even if you're running a version beyond 10.7).
 
 Run this file
 
@@ -138,6 +138,26 @@ psql postgres
 ```
 
 Then enter the password (and password confirmation) of: `password`.
+
+
+The Postgres Rubygem
+-----------
+
+You need to install the Postgres gem.  There are one of two ways that will work for you.
+
+
+**If you have installed XCode (outside this particular guide, but if you have been hacking with it on a different project: ** you need to install postgres with the proper paths setup.  To determine if you have XCode installed hit Cmd+[Space] and type 'XCode'  if you see XCode listed under Applications, this means this is for you [see this](http://i.imgur.com/VGLrHxO.png).  Otherwise skip to the other way.
+
+```
+ARCHFLAGS="-arch x86_64" gem install pg -- --with-pg-config=/Library/PostgreSQL/9.3/bin/pg_config
+```
+
+If you have not installed XCode (you did not do the above) run the following command to install the Postgres Rubygem
+
+```
+gem install pg
+```
+
 
 ###Awesome! You're all done here!###
 
