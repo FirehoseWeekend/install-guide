@@ -32,7 +32,7 @@ Run this file
 Why? with homebrew you can install a lot of programs with a single command line. It will save you a lot of time.
 
 ```
- ruby -e "$(curl -fsSL https://raw.github.com/mxcl/homebrew/go)"
+ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
 ```
 
 ###Git###
