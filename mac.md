@@ -92,6 +92,11 @@ __Now open a new terminal window by pressing COMMAND+T__
 rbenv install 2.0.0-p353
 ```
 
+Now setup the default version of ruby
+
+```
+rbenv global 2.0.0-p353
+```
 
 Now let's get you the rails version we're using for the weekend. Add the gems with:
 
