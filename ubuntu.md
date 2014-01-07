@@ -41,6 +41,8 @@ rvm use 2.0.0
 rvm gemset use 2.0.0@firehose --default --create
 ```
 
+**Open a new tab in the terminal and close out your old terminal tab now.  That will refresh your terminal window (and make sure you install everything in the right place).**
+
 * Install git
 
 ```

@@ -129,20 +129,45 @@ Still shows "Rails 4.0? --> High five you're all set :)
 ###Postgres###
 Why? This is our database that we'll be using to store our data in. 
 
-Download and run the [installer](http://www.enterprisedb.com/products-services-training/pgdownload#osx)
+Download and run the [installer](http://www.enterprisedb.com/products-services-training/pgdownload#osx), and follow the directions when going through the installer.  It's important to follow the direction exactly as described below.
+
+####Run the Installer####
+
+* If you get the application was blocked, make it unblocked.  To do this ask ken or marco how.
+
+* **Install Directory**: Leave this the default (/Library/PostgreSQL/9.3), and press Next >.
+* **Data Directory**: Leave this the default (/Library/PostgreSQL/9.3/data), and press Next >.
+* **When prompted for a password (and password confirmation) enter `password` for both.  **This is important.  Use the password of `password`.  This matters later**
+* **Port**: Leave this the default `5432`.
+* **Locale**: Leave the [Default locale] set and press Next >.
+* Press Next > again.
+* When prompted about *Stack Builder* after the install, uncheck the box, then press Finish.
 
 
-Create a database user
----------------------
+####Setup and Test The Postgres Installation####
 
+* Open the terminal and run this command:
 
 ```
-createuser -s -r postgres -h localhost
-psql postgres
-\password postgres
+echo -e "\nsource /Library/PostgreSQL/9.3/pg_env.sh" >> ~/.bash_profile && source ~/.bash_profile
 ```
 
-Then enter the password (and password confirmation) of: `password`.
+* In the terminal run this command.  You will be prompted for a password.
+
+```
+psql --username postgres -h localhost --password
+```
+
+**When prompted for a password enter `password`**, and you should be prompted with something that looks like:
+
+```
+psql (9.3.2)
+Type "help" for help.
+
+postgres=# 
+```
+
+Press **CTRL+D** to change the `postgres=#` into the `$`.
 
 
 The Postgres Rubygem
