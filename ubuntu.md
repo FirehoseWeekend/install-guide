@@ -5,7 +5,7 @@ Step 1 - Launch Terminal
 ----------
 
 * Press the dash-home button on the sidebar [^](http://i.imgur.com/6Y16pS1.jpg).
-* Begin typing the work `terminal` and then press the terminal icon [^](http://i.imgur.com/xU4rZSW.png).
+* Begin typing the word `terminal` and then press the terminal icon [^](http://i.imgur.com/xU4rZSW.png).
 
 Step 2 - Configure the Terminal
 ---------------
