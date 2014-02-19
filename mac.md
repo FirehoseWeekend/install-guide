@@ -196,7 +196,7 @@ export PATH="/usr/bin/local:$PATH"
 Now if you type `sublime` in the terminal, the sublime text editor should be launched.
 
 
-### Accounts
+## Accounts
 
 Now follow the guide [here](https://github.com/FirehoseWeekend/install-guide/blob/master/accounts.md) to setup your web development accounts.
 
