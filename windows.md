@@ -6,12 +6,9 @@ In order to have a well supported environment, with a large community if you are
 
 Step 1 - Install VirtualBox
 -------------
-* Download and install VirtualBox (version 3.1.8; not the latest version).  You can get the software [here](http://download.virtualbox.org/virtualbox/3.1.8/VirtualBox-3.1.8-61349-Win.exe)
+* Download and install the latest version of [VirtualBox](https://www.virtualbox.org/wiki/Downloads).
 * Launch the VirtualBox application.
 
-AT NO POINT UPDATE THE PROGRAM
--------------
-The program may tell you there are later versions out there.  We want to be on the version of VirtualBox we tell you, 3.1.8.  This is important, and if you don't follow this you'll need to uninstall and reinstall VirtualBox.  **DO NOT UPGRADE**
 
 
 Step 2 - Create a Virtual Environment
@@ -50,3 +47,19 @@ Step 3 - Install and Configure Ubuntu on the Virtual Environment
 Step 4 - Install Linux Packages
 -------------
 Now that you have Ubuntu running in a virtual environment, you can follow the guide for [Ubuntu Environment Install Guide](ubuntu.md) inside this virtual environment that is setup.
+
+
+
+
+
+
+Additional Info
+======
+
+
+Does VirtualBox fail to launch ubuntu?
+------------
+
+**ONLY READ THIS IF YOU'RE GETTING ERRORS**
+
+* In a small number of cases, you may need to either use [VirtualBox 3.1.8](http://download.virtualbox.org/virtualbox/3.1.8/VirtualBox-3.1.8-61349-Win.exe) rather than latest one, or make some changes to your BIOS to allow you to use the latest version.  In these cases you'll need to first completely uninstall VirtualBox and then install the old version.  __You'll only want to do this if you're sure the latest version isn't going to work for you__.
