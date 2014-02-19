@@ -164,8 +164,8 @@ gem install pg
 
 ### Sublime Text Editor
 
-Mac Guide
----------
+Now we're ready to install the text editor we'll be coding in:
+
 
 ** Enable Unsigned Developer Applications **
 
