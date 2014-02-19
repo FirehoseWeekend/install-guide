@@ -180,6 +180,8 @@ Now we're ready to install the text editor we'll be coding in:
 * When the *.dmg file finishes downloading double click it
 * Drag the "Sublime Text 2" icon into the "Applications" icon that is present in the popup[^](http://i.imgur.com/DuTTT71.png).
 
+Then run these commands in the Terminal Window:
+
 ```
 ln -s /Applications/Sublime\ Text\ 2.app/Contents/SharedSupport/bin/subl /usr/local/bin/sublime
 open ~/.bash_profile
