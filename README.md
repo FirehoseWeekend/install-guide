@@ -15,7 +15,7 @@ If you're curious to learn more, you read up on the nitty-gritty details about V
 
 **This process is the fastest, and the easiest**.
 
-### [Boxen Install](manual.md)
+### [Boxen Install](http://github.com/kenmazaika/firehose-boxen)
 
 **Supports**: _Mac OS 10.8 and Mac OS 10.9_
 
