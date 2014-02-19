@@ -167,14 +167,14 @@ gem install pg
 Now we're ready to install the text editor we'll be coding in:
 
 
-** Enable Unsigned Developer Applications **
+**Enable Unsigned Developer Applications**
 
 * Press command+[space] and type "System Preferences"
 * Click Security and Privacy
 * Press the lock button & enter your password
 * Make sure the `Allow applications downloaded from:` is set to `Anywhere`[^](http://i.imgur.com/0HEcfmt.png).
 
-** Install Sublime **
+**Install Sublime**
 
 * Go to [Sublime Text Editor Download Page](http://www.sublimetext.com/2), and click on the OSX link.
 * When the *.dmg file finishes downloading double click it
