@@ -5,7 +5,7 @@ There are a few different options you have to install your web development envir
 
 ### [Vagrant Install](https://github.com/kenmazaika/firehose-vagrant)
 
-Supports: _Windows, Mac OS_
+**Supports**: _Windows, Mac OS_
 
 This will setup your web development environment using a tool called Vagrant.  
 
@@ -17,7 +17,7 @@ If you're curious to learn more, you read up on the nitty-gritty details about V
 
 ### [Boxen Install](manual.md)
 
-Supports: _Mac OS 10.8 and Mac OS 10.9_
+**Supports**: _Mac OS 10.8 and Mac OS 10.9_
 
 This will setup your web development environment using a tool called Boxen.  
 
@@ -31,7 +31,7 @@ If you're curious to learn more, you read up on the nitty-gritty details about B
 
 
 ### [Manual Process](manual.md)
-Supports: _Windows, Mac OS, and Ubuntu_  
+**Supports**: _Windows, Mac OS, and Ubuntu_  
 
 **In short**: you can manually install all the programs that you'll need to on your machine.
 
