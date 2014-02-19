@@ -22,7 +22,7 @@ Step 2 - Create a Virtual Environment
 * Press the _Create_ button on the location size dialog[^](http://i.imgur.com/bJSaNGq.png).
 
 
-Step 3 - Install and Configure Ubuntu on the Virtual Environment
+Step 3 - Install and Configure Ubuntu
 -------------
 * Download Ubuntu 12.04 LTS or copy the file from a local harddrive.  You can download it [here](http://www.ubuntu.com/download/desktop) as the 32-bit option [^](http://i.imgur.com/jY9aLmh.png).
 * Click the _Not Now_ link[^](http://i.imgur.com/86ezhPg.png).
