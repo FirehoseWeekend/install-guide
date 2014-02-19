@@ -25,44 +25,87 @@ _NOTE: Anything in the format below should be typed into the terminal applicatio
 This indicates text that should be entered into terminal
 ```
 
-* Install Curl
+###configuration###
 
 ```
-sudo apt-get install curl
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
 ```
 
-* Install rvm
+###programs###
+
+* Install packages
 
 ```
-curl -L https://get.rvm.io | bash -s stable
-source ~/.bash_profile
-rvm install 2.0.0
-rvm use 2.0.0
-rvm gemset use 2.0.0@firehose --default --create
-```
-
-**Open a new tab in the terminal and close out your old terminal tab now.  That will refresh your terminal window (and make sure you install everything in the right place).**
-
-* Install git
-
-```
-sudo apt-get install git-core
-```
-
-* Install Rails
-
-```
-gem install rails -v 4.0.1
-```
-
-* Install Postgres
-
-```
-sudo apt-get install postgresql postgresql-contrib libpq-dev
+sudo apt-get install git-core curl ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8 libreadline-ruby1.8 libruby1.8 libopenssl-ruby libxslt-dev libxml2-dev libxslt1-dev postgresql postgresql-contrib libpq-dev nodejs sublime-text
 ```
 
 
-** Configure Postgres User Account **
+###rbenv###
+
+Install rbenv and the latest versions of Ruby and Rails (this next line goes into the terminal, remember):
+
+
+```
+git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
+```
+
+
+```
+ echo 'export PATH="$HOME/.rbenv/bin:$PATH"' >> ~/.bash_profile
+```
+
+```
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+```
+
+
+```
+git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
+```
+
+__Now open a new terminal window by pressing COMMAND+T__
+
+```
+rbenv install 2.0.0-p353
+```
+
+Now setup the default version of ruby
+
+```
+rbenv global 2.0.0-p353
+```
+
+Now let's get you the rails version we're using for the weekend. Add the gems with:
+
+```
+gem install rails -v 4.0.0
+```
+
+```
+rbenv rehash
+```
+
+And if you type:
+
+```
+rails -v
+```
+
+You should get: Rails 4.
+
+Now open a new tab in the terminal (Command+t) and type in:
+
+```
+rails -v
+```
+
+Still shows "Rails 4.0? High five you're all set :)
+
+
+
+
+### Configure Postgres User Account###
 
 ```
 sudo -u postgres psql postgres
@@ -73,38 +116,15 @@ When prompted for a password (and a confirmation) enter: `password`.
 
 Press ctrl+d to close the postgres console.
 
-* Install NodeJS
-
-```
-sudo apt-get install nodejs
-```
 
 
-** Install Nokogiri RubyGem **
+###Install Nokogiri RubyGem###
 
 Nokogiri is a rubygem that we need and it requires certain packages to be installed.  To install those packages and make sure the gem can be installed run these commands:
 
 ```
-sudo apt-get install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8 libreadline-ruby1.8 libruby1.8 libopenssl-ruby libxslt-dev libxml2-dev libxslt1-dev libxml2-dev
-gem install nokogiri
+gem install nokogiri -v 1.5.11
 ```
-
-
-
-Sublime Text
--------------
-
-Now we're ready to install the text editor we'll be coding in:
-
-```
-sudo add-apt-repository ppa:webupd8team/sublime-text-2
-sudo apt-get update
-sudo apt-get install sublime-text
-sudo ln -s /usr/bin/subl /usr/bin/sublime
-```
-
-Now if you click the start button on the left, start typing "Sublime", and then click on "Sublime Text 2" you should see a text editor launch up.
-
 
 ### Accounts
 
