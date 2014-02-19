@@ -39,7 +39,10 @@ This will give you fine grained control since you'll be installing everything by
 
 **This process is the hardest to complete, and will take the longest**.
 
-<br /><br /><br /><br /><br />
+<br /><br />
+
+---------------------------------------
+
 ### A Quick Rundown of the Tools (optional read for the curious)
 
 You'll be installing the same tools, regardless of the method of installation you use.  We'll be going over the details of all these tools over the course, but if you want a quick primer, here's what's getting loaded on your machine.  Keep in mind, the goal of Install Night isn't get understand the details of the packages you're installing, just getting your machine into a state where you are ready to start writing code right away.
