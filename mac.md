@@ -198,3 +198,26 @@ Now if you type `sublime` in the terminal, the sublime text editor should be lau
 
 Now follow the guide [here](https://github.com/FirehoseWeekend/install-guide/blob/master/accounts.md) to setup your web development accounts.
 
+
+
+Additional Info
+======
+
+database.yml
+------
+
+We'll go over what this means Saturday.
+
+This installer will install postgresql in such a way that you'll need to adjust your database.yml file to look like this in each of the three sections (development, test, production).  Also be sure to adjust the database section.  _NOTE: indentation is super important - make sure they line up and rather than copy & pasting this, type this in)_:
+
+```
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: YOUR_APPLICATION_NAME_HERE_development
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+```
+

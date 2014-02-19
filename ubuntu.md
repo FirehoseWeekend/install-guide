@@ -88,3 +88,48 @@ Nokogiri is a rubygem that we need and it requires certain packages to be instal
 sudo apt-get install ruby1.8-dev ruby1.8 ri1.8 rdoc1.8 irb1.8 libreadline-ruby1.8 libruby1.8 libopenssl-ruby libxslt-dev libxml2-dev libxslt1-dev libxml2-dev
 gem install nokogiri
 ```
+
+
+
+Sublime Text
+-------------
+
+Now we're ready to install the text editor we'll be coding in:
+
+```
+sudo add-apt-repository ppa:webupd8team/sublime-text-2
+sudo apt-get update
+sudo apt-get install sublime-text
+sudo ln -s /usr/bin/subl /usr/bin/sublime
+```
+
+Now if you click the start button on the left, start typing "Sublime", and then click on "Sublime Text 2" you should see a text editor launch up.
+
+
+### Accounts
+
+Now follow the guide [here](https://github.com/FirehoseWeekend/install-guide/blob/master/accounts.md) to setup your web development accounts.
+
+
+
+
+Additional Info
+======
+
+database.yml
+------
+
+We'll go over what this means Saturday.
+
+This installer will install postgresql in such a way that you'll need to adjust your database.yml file to look like this in each of the three sections (development, test, production).  Also be sure to adjust the database section.  _NOTE: indentation is super important - make sure they line up and rather than copy & pasting this, type this in)_:
+
+```
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: YOUR_APPLICATION_NAME_HERE_development
+  pool: 5
+  username: postgres
+  password: password
+  host: localhost
+```
