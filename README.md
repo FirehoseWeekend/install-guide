@@ -40,8 +40,7 @@ This will give you fine grained control since you'll be installing everything by
 **This process is the hardest to complete, and will take the longest**.
 
 
-Here's a Quick Run Down of What You'll Be Installing (optional read - for the curious)
----------------
+### A Quick Rundown of the Tools (optional read for the curious)
 
 You'll be installing the same tools, regardless of the method of installation you use.  We'll be going over the details of all these tools over the course, but if you want a quick primer, here's what's getting loaded on your machine.
 
