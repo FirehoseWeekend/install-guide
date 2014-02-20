@@ -56,15 +56,13 @@ git clone https://github.com/sstephenson/rbenv.git ~/.rbenv
 ```
 
 ```
-echo 'eval "$(rbenv init -)"' >> ~/.bash_profile
+echo 'eval "$(rbenv init -)"' >> ~/.bash_profile && source ~/.bash_profile
 ```
 
 
 ```
 git clone https://github.com/sstephenson/ruby-build.git ~/.rbenv/plugins/ruby-build
 ```
-
-__Now open a new terminal window by pressing COMMAND+T__
 
 ```
 rbenv install 2.0.0-p353
