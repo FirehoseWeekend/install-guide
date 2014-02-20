@@ -9,9 +9,9 @@ Sometimes your machine will prompt you for a password for the user account on yo
 Also: your Mac user account will need to have a password set on it for some commands to run.  For the course of the weekend set a password if you don't have one. If you don't have one you can set one by following: Command+Spacebar > [Type] System Preferences > [ENTER] > Users & Groups > Change Password... 
 
 
-Select the environment you want to setup a web development environment in:
+What environment are you in?
 ----------------
 
-* [Mac OSX](mac.md)
-* [Windows](windows.md)
-* [Ubuntu](ubuntu.md)
+### [Mac OSX](mac.md)
+### [Windows](windows.md)
+### [Ubuntu](ubuntu.md)
