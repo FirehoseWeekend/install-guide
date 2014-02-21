@@ -9,9 +9,9 @@ There are a few different options you have to install your web development envir
 
 This will setup your web development environment using a tool called Vagrant.  
 
-**In short**: this method will allow you to run with a pre-installed web development environment once you install a couple of programs.  Once you're up and running all you'll need to do is run a few commands to connect we accounts to it.
+**In short**: this method will allow you to run with a pre-installed web development environment once you install a couple of programs.  Once you're up and running all you'll need to do is run a few commands to be ready for web development.
 
-If you're curious to learn more, you read up on the nitty-gritty details about Vagrant [here](http://www.vagrantup.com/) (entirely optional).
+If you're curious to learn more, you can read up on the nitty-gritty details about Vagrant [here](http://www.vagrantup.com/) (entirely optional).
 
 **This process is the fastest, and the easiest**.
 
