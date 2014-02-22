@@ -52,7 +52,7 @@ You'll be installing the same tools, regardless of the method of installation yo
 * **Ruby**:  This will allow you to run ruby code, and is needed to build ruby on rails applications
 * **rbenv**:  This is a tool that will help us run ruby, and also will allow us to run multiple versions of ruby on the same machine.
 * **PostgreSQL**:  This will be a place where we can store and change user generated data in our web application
-* **Sublime Text Editor**:  This will allow us to 
+* **Sublime Text Editor**:  This will allow us to see our code, write more code and make changes to it.
 * **SSH Keys**:  These are a lot like passwords that will live on your computer.  These passwords will allow your computer to talk to different web services out there.
 
 #### Accounts Setup)
