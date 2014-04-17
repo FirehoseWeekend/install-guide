@@ -140,7 +140,7 @@ heroku keys:add
 
 In the window with the dollar sign, run this command.
 
-**NOTE:** this will take a while (it hung for 18 minutes for me so hang in there and wait until it says "Successfully installed nokogiri-1.6.1")
+**NOTE:** this will take a while (it hung for ~18 minutes for me so hang in there and wait until it says "Successfully installed nokogiri-1.6.1")
 
 ```
 gem install nokogiri                                                                                            
@@ -159,8 +159,12 @@ you for your **GitHub username** and password (note, this isn't your GitHub emai
 that, enter that here):
 
 ```
-curl "https://raw.githubusercontent.com/FirehoseWeekend/install-guide/master/nitrous_github.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
+curl "https://raw.githubusercontent.com/FirehoseWeekend/install-guide/master/nitrous_github_action.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
 ```
+
+If you see it say "ok!" continue to the next step.
+
+### Setup git
 
 Then adjust these to have your name and email address inside the double quotes:
 
@@ -182,4 +186,43 @@ Step 7: Test - Ask Marco and Ken for help
 ---------
  
 We'll run by make sure your machine is up to snuf.
+
+
+
+Additional Info
+----------
+
+This is just for marco & ken
+
+###Database.yml
+
+
+```
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: appname-dev
+  pool: 5
+  host: localhost
+  username: action
+  password:
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: appname-test
+  pool: 5
+  host: localhost
+  username: action
+  password:
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: appname-prod
+  pool: 5
+  host: localhost
+  username: action
+  password:
+```
 
