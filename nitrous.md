@@ -33,7 +33,7 @@ emails to you in the nitrous sign up flow.
 
 Click the Green "Open Dashboard" button
 
-http://monosnap.com/image/gyeffOLKJiWsVRpouBVKqNMWrnR29K
+![open-dashboard](http://i.imgur.com/oNINElt.png)
 
 
 ### Part D
@@ -42,32 +42,32 @@ Create a ruby-on rails box.
 
 * Make sure the "Ruby/Rails" logo is colored:
 
-http://take.ms/E4LVI
+![rails-is-selected](http://i.imgur.com/LYLHXg3.png)
 
 * For name enter "Firehose"
 * For region enter "US West"
 * Leave "Download a GitHub repo" blank
 * Press the orange "Create Box" button.
 
-http://take.ms/Wny00
+![push-create-box](http://i.imgur.com/KPMhIct.png)
 
 ### Part E
 
 Wait a few moments until you see "firehose is running" with a green icon on the page the gets displayed:
 
-http://take.ms/ddcKG
+![firehose-is-running](http://i.imgur.com/8xaMPmi.png)
 
 ### Part F
 
 Press the orange "Next" button:
 
-http://take.ms/O2y8m
+![press-next](http://i.imgur.com/HynaHgL.png)
 
 ### Part G
 
 Scroll to the bottom of the page and press the orange "Okay, Take Me to my Box!" button:
 
-http://take.ms/JI7TP
+![ok-takeme-to-my-box](http://i.imgur.com/MYp1hIk.png)
 
 Then your coding environment will load up in the browser.
 
@@ -82,7 +82,7 @@ Step 3 - Install Your Database
 
 Click the bottom part of the window, where you see the dollar sign:
 
-http://monosnap.com/image/sATBzBzvU3LE5POYxla4oWaBoyRLDh
+![click-in-the-terminal](http://i.imgur.com/jdhKdV8.png)
 
 ### Part B
 
