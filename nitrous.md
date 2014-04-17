@@ -149,13 +149,6 @@ gem install nokogiri
 In the window with the dollar sign, run this command.
 
 
-BROKEN HERE - still going.
-
-```
-gem install nokogiri
-```
-
-
 ```
 gem install github_api
 ```
@@ -166,7 +159,7 @@ you for your **GitHub username** and password (note, this isn't your GitHub emai
 that, enter that here):
 
 ```
-curl "https://raw2.github.com/kenmazaika/firehose-vagrant/master/github-key.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
+curl "https://raw.githubusercontent.com/FirehoseWeekend/install-guide/master/nitrous_github.rb" > ~/.firehose-github.rb && ruby ~/.firehose-github.rb
 ```
 
 Then adjust these to have your name and email address inside the double quotes:
