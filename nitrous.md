@@ -140,10 +140,10 @@ heroku keys:add
 
 In the window with the dollar sign, run this command.
 
-**NOTE:** this will take a while 
+**NOTE:** this will take a while (it hung for 18 minutes for me so hang in there and wait until it says "Successfully installed nokogiri-1.6.1")
 
 ```
-gem install nokogiri -- --use-system-libraries                                                                                            
+gem install nokogiri                                                                                            
 ```
 
 In the window with the dollar sign, run this command.
