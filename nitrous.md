@@ -168,11 +168,14 @@ If you see it say "ok!" continue to the next step.
 
 ### Setup git
 
-Then adjust these to have your name and email address inside the double quotes:
+Then run the command below and **adjust this to have your name inside the double quotes**:
 
 ```
 git config --global user.email "you@example.com"
 ```
+
+Then it will immediately return with the dollar sign and then not display anything else.  After this happens run the command below and **adjust this to have your email inside the double quotes**:
+
 ```
 git config --global user.name "Your Name"
 ```
