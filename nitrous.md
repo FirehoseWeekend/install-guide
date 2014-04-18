@@ -175,54 +175,15 @@ git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
 ```
 
-##Amazon AWS services##
-
-_We need an amazon developer account for some image storage space on Amazons S3 service (this will cost you nothing)_
-
-* Sign-up and create an account for [Amazon Web Services](http://aws.amazon.com/). Anything we'll do over the weekend will cost you nothing, so don't worry about your credit card being charged.
-
  
-Step 7: Test - Ask Marco and Ken for help
+Step 5: Have your machine checked
 ---------
  
-We'll run by make sure your machine is up to snuf.
+Put your hand up and ask for Marco and Ken to help you out and test that your web development environment is properly setup.
 
 
 
 Additional Info
 ----------
 
-This is just for marco & ken
-
-###Database.yml
-
-
-```
-development:
-  adapter: postgresql
-  encoding: unicode
-  database: appname-dev
-  pool: 5
-  host: localhost
-  username: action
-  password:
-
-test:
-  adapter: postgresql
-  encoding: unicode
-  database: appname-test
-  pool: 5
-  host: localhost
-  username: action
-  password:
-
-production:
-  adapter: postgresql
-  encoding: unicode
-  database: appname-prod
-  pool: 5
-  host: localhost
-  username: action
-  password:
-```
-
+Information about how the database is setup is located (here)[nitrous-database.md] - Marco & Ken will go over what this means later in the workshop.
