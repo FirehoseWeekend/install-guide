@@ -75,7 +75,7 @@ Then your coding environment will load up in the browser.
 Install your database
 
 
-Step 3 - Install Your Database
+Step 3: Install Your Database
 -------
 
 ### Part A
