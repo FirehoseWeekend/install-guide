@@ -38,7 +38,7 @@ Click the Green "Open Dashboard" button
 
 ### Part D
 
-Create a ruby-on rails box.
+Create a Ruby on Rails box.
 
 * Make sure the "Ruby/Rails" logo is colored:
 
@@ -135,6 +135,8 @@ see that go onto the next command to run:
 ```
 heroku keys:add
 ```
+
+Once you see the "Uploading SSH public key /home/action/.ssh/id_rsa.pub... done" , move on.
  
 #### Configure Github with SSH Keys
 
