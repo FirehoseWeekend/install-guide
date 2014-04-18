@@ -186,4 +186,4 @@ Put your hand up and ask for Marco and Ken to help you out and test that your we
 Additional Info
 ----------
 
-Information about how the database is setup is located (here)[nitrous-database.md] - Marco & Ken will go over what this means later in the workshop.
+Information about how the database is setup is located [here](nitrous-database.md) - Marco & Ken will go over what this means later in the workshop.
