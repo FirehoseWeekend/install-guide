@@ -4,7 +4,7 @@ __How to read this document:__
 
 Everything that is in a little box is a command you need to run in your terminal. For example, if you see a box like the one below copy that line and paste it in your terminal:
 
-``` 
+```
 copy everything in here an paste it into the terminal
 ```
 
@@ -109,8 +109,8 @@ Download and run the [installer](http://www.enterprisedb.com/products-services-t
 
 * If you get the application was blocked, make it unblocked.  To do this ask ken or marco how.
 
-* **Install Directory**: Leave this the default (/Library/PostgreSQL/9.3), and press Next >.
-* **Data Directory**: Leave this the default (/Library/PostgreSQL/9.3/data), and press Next >.
+* **Install Directory**: Leave this the default (/Library/PostgreSQL/9.4), and press Next >.
+* **Data Directory**: Leave this the default (/Library/PostgreSQL/9.4/data), and press Next >.
 * **When prompted for a password (and password confirmation) enter `password` for both.  **This is important.  Use the password of `password`.  This matters later**
 * **Port**: Leave this the default `5432`.
 * **Locale**: Leave the [Default locale] set and press Next >.
@@ -123,7 +123,7 @@ Download and run the [installer](http://www.enterprisedb.com/products-services-t
 * Open the terminal and run this command:
 
 ```
-echo -e "\nsource /Library/PostgreSQL/9.3/pg_env.sh" >> ~/.bash_profile && source ~/.bash_profile
+echo -e "\nsource /Library/PostgreSQL/9.4/pg_env.sh" >> ~/.bash_profile && source ~/.bash_profile
 ```
 
 * In the terminal run this command.  You will be prompted for a password.
@@ -135,10 +135,10 @@ psql --username postgres -h localhost --password
 **When prompted for a password enter `password`**, and you should be prompted with something that looks like:
 
 ```
-psql (9.3.2)
+psql (9.4.0)
 Type "help" for help.
 
-postgres=# 
+postgres=#
 ```
 
 Press **CTRL+D** to change the `postgres=#` into the `$`.
@@ -153,7 +153,7 @@ You need to install the Postgres gem.  There are one of two ways that will work 
 **If you have installed XCode (outside this particular guide, but if you have been hacking with it on a different project: ** you need to install postgres with the proper paths setup.  To determine if you have XCode installed hit Cmd+[Space] and type 'XCode'  if you see XCode listed under Applications, this means this is for you [see this](http://i.imgur.com/VGLrHxO.png).  Otherwise skip to the other way.
 
 ```
-ARCHFLAGS="-arch x86_64" gem install pg -- --with-pg-config=/Library/PostgreSQL/9.3/bin/pg_config
+ARCHFLAGS="-arch x86_64" gem install pg -- --with-pg-config=/Library/PostgreSQL/9.4/bin/pg_config
 ```
 
 If you have not installed XCode (you did not do the above) run the following command to install the Postgres Rubygem
@@ -222,4 +222,3 @@ development:
   password: password
   host: localhost
 ```
-
