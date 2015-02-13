@@ -16,7 +16,7 @@ __Open the terminal__ by pressing command and then the spacebar. In the search b
 Why? with homebrew you can install a lot of programs with a single command line. It will save you a lot of time.
 
 ```
-ruby -e "$(curl -fsSL https://raw.github.com/Homebrew/homebrew/go/install)"
+ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 ```
 
 ###Git###
